@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.top{
+	height: 50px;line-height: 50px;
+}
+.top a{
+	color: aliceblue;
+}
+.top a:hover{
+	color: orange;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+padding: 10px 15px;	
+border-radius: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+color: #FFFFFF;
+background-color: #DECCB7;
+}
+main{
+	min-height: 500px;
+    font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+    
+}
+footer{
+	min-height: 200px;
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+    color:#DECCB7;
+}
+footer h4{
+    font-size: 15px
+}
+footer ul li{
+    font-size: 15px
+}
+footer p{
+    font-size: 15px;
+}
+.gachchan{
+	border-bottom: 2px solid #DECCB7;
+}
+#sanpham a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;  
+}
+#sanpham a:hover{
+    color: #DECCB7;
+}
+#why{
+	width: 100%;
+	min-height: 350px; 
+	background-image: url("../images/loisong.png"); background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.client{
+	width: 100%; position: relative;
+}
+.truoc{
+	position: absolute; left: 0; top: 0; padding: 6px; background-color: aliceblue;
+}
+.sau{
+	position: absolute; left: 50%; top: 0;padding: 6px; background-color: aliceblue;
+}
+#hinh a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;  
+}
+#hinh a:hover{
+    color: #DECCB7;
+}
+#tintuc a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;  
+}
+#tintuc a:hover{
+    color: #DECCB7;
+}
+#tintuc p{
+    font-size: 11px;
+}
